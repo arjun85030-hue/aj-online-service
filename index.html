@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AJ Online Service</title>
+  <meta name="description" content="AJ Online Service - सरकारी और ऑनलाइन सेवाएँ" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="topbar"><span>भारत सरकार के नागरिक सेवा पोर्टल</span></div>
+
+  <header class="header">
+    <a class="brand" href="#">
+      <div class="brand-mark">AJ</div>
+      <div><strong>AJ Online Service</strong><small>आपकी सेवा, हमारा विश्वास</small></div>
+    </a>
+    <nav>
+      <a class="active" href="#home">होम</a>
+      <a href="#services">सेवाएं</a>
+      <a href="#track">स्थिति देखें</a>
+      <a href="#contact">संपर्क</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">सरकारी सुविधाएँ, आसान तरीके से</span>
+        <h1>सभी ऑनलाइन सेवाएं<br><em>एक ही स्थान पर</em></h1>
+        <p>फॉर्म आवेदन, प्रमाण पत्र, बिल भुगतान और डिजिटल सेवाओं की पूरी जानकारी पाएं।</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#services">सेवा चुनें</a>
+          <a class="btn outline" href="#track">स्थिति ट्रैक करें</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="card-icon">₹</div>
+        <h3>आवेदन स्टेटस</h3>
+        <p>अपना पंजीकरण नंबर डालकर तुरंत जानकारी देखें</p>
+        <div class="status-form">
+          <input id="applicationNumber" type="text" placeholder="आवेदन नंबर" />
+          <button id="checkStatus" type="button">देखें</button>
+        </div>
+        <div id="statusResult" class="status-result"></div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="section-heading">
+        <div><span>लोकप्रिय सेवाएं</span><h2>हमारी सेवाएं</h2></div>
+        <button class="search-btn" type="button" aria-label="Search">⌕</button>
+      </div>
+      <div class="service-grid">
+        <article class="service-card">
+          <div class="service-icon blue">ID</div><h3>पहचान प्रमाण पत्र</h3><p>आधार, पहचान पत्र और पते से संबंधित सेवाएं</p><a href="#contact">आवेदन करें →</a>
+        </article>
+        <article class="service-card">
+          <div class="service-icon orange">₹</div><h3>बिल भुगतान</h3><p>बिजली, पानी और अन्य उपयोगिता बिल का भुगतान</p><a href="#contact">भुगतान करें →</a>
+        </article>
+        <article class="service-card">
+          <div class="service-icon green">✓</div><h3>प्रमाण पत्र</h3><p>जाति, निवास और आय प्रमाण पत्र आवेदन</p><a href="#contact">आवेदन करें →</a>
+        </article>
+        <article class="service-card">
+          <div class="service-icon purple">◎</div><h3>सामाजिक योजनाएं</h3><p>सरकारी योजनाओं की जानकारी और आवेदन</p><a href="#contact">जानें अधिक →</a>
+        </article>
+        <article class="service-card">
+          <div class="service-icon red">文</div><h3>ऑनलाइन फॉर्म</h3><p>नौकरी, परीक्षा और भर्ती से जुड़े फॉर्म</p><a href="#contact">फॉर्म भरें →</a>
+        </article>
+        <article class="service-card">
+          <div class="service-icon teal">↗</div><h3>डिजिटल सेवा</h3><p>डाउनलोड, प्रिंट और डिजिटल दस्तावेज़ सहायता</p><a href="#contact">सेवा लें →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="track" class="track-strip">
+      <div><h2>आवेदन की स्थिति जानें</h2><p>24×7 ऑनलाइन सहायता उपलब्ध</p></div>
+      <a class="btn light" href="#">अभी चेक करें</a>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>संपर्क करें</h2>
+      <div class="contact-row"><span>📞 सहायता लाइन</span><strong>+91 00000 00000</strong></div>
+      <div class="contact-row"><span>✉ ईमेल</span><strong>help@ajonlineservice.in</strong></div>
+    </section>
+  </main>
+
+  <footer><p>© 2026 AJ Online Service. सभी अधिकार सुरक्षित।</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
